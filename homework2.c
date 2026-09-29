@@ -11,7 +11,7 @@
 #include <unistd.h>
 
 extern char **environ;
-
+/*This is the answers to Questions for chapter 5 Code questions in OSTEP*/
 /* Question 1: Show that fork gives the child an independent copy of x. */
 static int question1(void) {
     int x = 100;
